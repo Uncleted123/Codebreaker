@@ -1,0 +1,49 @@
+# CODEBREAKER GAME #
+# Objective: Win the game by solving the code
+# Win Condition: Code is solved within 12 turns
+# Lose Condition: Code remains unsolved after 12 turns
+# Guesses and Solution consists of 8 colors, randomly chosen, 1 each in code up to maximum 5
+# Response board contains 3 possible responses: 1. Empty slot, 2. Right color, wrong spot, and 3. Right color, right spot
+# 1 and 2 above fill in from left to right, 3 MUST be in slot that correct color and position
+
+# draw guess board
+# draw response board
+# random solution key
+# is right color
+# is right spot
+
+# colors:    R, O, Y, G, B, W, P, V
+# responses: x, y, z
+# winning response: zzzzz
+
+'''Guess Board Example
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+x x x x x
+Guess Board Example'''
+
+'''Response Board Example
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+Response Board Example'''
+
+'''Guess Submission Example
